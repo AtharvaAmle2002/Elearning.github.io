@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Pacifico&family=Poppins:wght@200&display=swap");
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    background-color: rgb(249, 249, 249);
+}
+.left{
+    width: 15%;
+    height: 700px;
+}
+.sym{
+    width: 15px;
+    margin-right: 10px;
+}
+.name{
+    padding: 20px;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    margin-left: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: rgb(219, 197, 239);
+    color: black;
+    border-radius: 10px;
+}
+ul li:hover a{
+    color: black;
+}
+.premium{
+    width: 200px;
+    background-color:  rgb(223, 188, 255);
+    border-radius: 10px;
+    height: 200px;
+    margin: 30px;
+    margin-top: 100px;
+    padding: 10px;
+}
+.ps{
+    padding-top: 70px;
+    text-align: center;
+}
+.ps_txt{
+    padding-top: 10px;
+    text-align: center;
+}
+.pre_btn{
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:  rgb(174, 4, 174);
+    width: 180px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.ps_img{
+    position: absolute;
+    top: 280px;
+}
+.quote{
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    color: coral;
+    -webkit-text-stroke: 0.5px black;
+}
+.crs{
+    height: 300px;
+    width: 100%;
+    margin-left: 70px;
+}
+.oc{
+    margin-top: 20px;
+    margin-left: 385px;
+    font-family: 'Kaushan Script', cursive;
+}
+.src{
+    background-color: white;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    animation: raise 1s;
+}
+@keyframes raise{
+    0%   {transform: scale(0);}
+    100% {transform: scale(1);}
+  }
+.new_txt{
+    margin-top: -20px;
+    margin-left: 200px;
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    -webkit-text-stroke: 0.3px darkblue;
+}
+.c1{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(255, 242, 219);
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    animation: raise 1s;
+}
+@keyframes raise{
+    0%   {transform: scale(0);}
+    100% {transform: scale(1);}
+  }
+.c2{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(226, 226, 255);
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    animation: raise 1s;
+}
+@keyframes raise{
+    0%   {transform: scale(0);}
+    100% {transform: scale(1);}
+  }
+.c3{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(218, 246, 255);
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    animation: raise 1s;
+}
+@keyframes raise{
+    0%   {transform: scale(0);}
+    100% {transform: scale(1);}
+  }
+.new{
+    display: flex;
+}
+.map{
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.grp{
+    margin-top: 160px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.webd{
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.pics{
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.best{
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 40px;
+    margin-left: 200px;
+    color: red;
+    -webkit-text-stroke: 0.3px darkblue;
+}
+.bestseller{
+    display: flex;
+}

@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/ej2-calendars/styles/material.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.syncfusion.com/ej2/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-inputs/dist/global/ej2-inputs.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-buttons/dist/global/ej2-buttons.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-lists/dist/global/ej2-lists.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-calendars/dist/global/ej2-calendars.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.syncfusion.com/ej2/ej2-buttons/styles/material.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <h3 class="name">Acedemy</h3>
+            <ul>
+                <li><img src="images/dashboard.png" alt="" class="sym"><a href="file:///D:/INTERNSHIP/index.html">Dashboard</a></li>
+                <li><img src="images/briefcase.png" alt=""class="sym"><a href="file:///D:/INTERNSHIP/course.html">Courses</a></li>
+                <li><img src="images/chat.png" alt="" class="sym"><a href="file:///D:/INTERNSHIP/chat.html">Chats</a></li>
+                <li><img src="images/stats.png" alt="" class="sym"><a href="file:///D:/INTERNSHIP/grades.html">Grades</a></li>
+                <li><img src="images/calendar.png" alt="" class="sym"><a href="file:///D:/INTERNSHIP/schedule.html">Schedule</a></li>
+                <li><img src="images/setting.png" alt="" class="sym"><a href="#">Setting</a></li>
+            </ul>
+            <div class="premium">
+                <img src="images/laptopman.png" alt="" class="ps_img">
+                <h4 class="ps">Premium Subscription</h5>
+                <p class="ps_txt">Bye premium and get access to new Courses</p>
+                <button class="pre_btn">More Details</button>
+            </div>
+        </div>
+        <div class="center">
+            <h2 class="db">Dashboard</h2>
+            <h3 class="nh">New Courses</h3>
+            <input type="text" class="src" placeholder="&#x1F50E;&#xFE0E; Search...">
+            <button class="fa fa-bell bel"></button>
+            <div class="new_course">
+                <div class="ncr" id="nc0">
+                    <img src="images/map.jpg" alt="" class="map">
+                    <h5 class="grp">Geography</h5>
+                    <p>12 lessons</p>
+                    <div class="thr">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                    </div>
+                    <button class="nc_btn">&#10148;</button>
+                </div>
+                <div class="ncr" id="nc1"><img src="images/webdev.png" alt="" class="webd">
+                    <h5 class="grp">Javascript Course</h5>
+                    <p>15 lessons</p>
+                    <div class="thr">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                    </div>
+                    <button class="nc_btn1">&#10148;</button>
+                </div>
+                <div class="ncr" id="nc2">
+                    <img src="images/pics.jpg" alt="" class="pics">
+                    <h5 class="grp">Photography Course</h5>
+                    <p>8 lessons</p>
+                    <div class="thr">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                        <img src="images/profile.jpg" alt="" class="threepf">
+                    </div>
+                    <button class="nc_btn2">&#10148;</button>
+                </div>
+            </div>
+            <br>
+            <div class="cr">
+                <h3 style="margin-left: 100px;">My Courses</h3>
+                <a href="file:///D:/INTERNSHIP/course.html" class="vl">View All</a>
+            </div>
+            <table>
+                <tr>
+                    <td style="font-size: 10px; color: grey;">Course name</td>
+                    <td style="font-size: 10px; color: grey;">Start</td>
+                    <td style="font-size: 10px; color: grey;">Rate</td>
+                    <td style="font-size: 10px; color: grey;">Level</td>
+                </tr>
+                <tr>
+                    <td style="display: flex;" class="frs">
+                        <img src="images/webdes.jpg" alt="" class="logo" style="border-radius: 5px;">
+                        <h5 style="font-size: 12px; margin-left:10px;">Web Design</h5>
+                        <p style="font-size: 10px; margin-left:-70px; margin-top: 15px;">10 lessons</p>
+                    </td>
+                    <td style="font-size: 13px;">May 12</td>
+                    <td style="font-size: 13px;">4.8</td>
+                    <td style="font-size: 13px;">Elementary</td>
+                </tr>
+                <tr>
+                    <td style="display: flex;" class="frs">
+                        <img src="images/webd.png" alt="" class="logo" style="border-radius: 5px;">
+                        <h5 style="font-size: 12px; margin-left:10px;">Developement Basics</h5>
+                        <p style="font-size: 10px; margin-left:-125px; margin-top: 15px;">8 lessons</p>
+                    </td>
+                    <td style="font-size: 13px;">May 14</td>
+                    <td style="font-size: 13px;">4.4</td>
+                    <td style="font-size: 13px;">Intermediate</td>
+                </tr>
+                <tr>
+                    <td style="display: flex;" class="frs">
+                        <img src="images/python.jpg" alt="" class="logo" style="border-radius: 5px;">
+                        <h5 style="font-size: 12px; margin-left:10px;">Data with Python</h5>
+                        <p style="font-size: 10px; margin-left:-97px; margin-top: 15px;">5 lessons</p>
+                    </td>
+                    <td style="font-size: 13px;">May 17</td>
+                    <td style="font-size: 13px;">4.6</td>
+                    <td style="font-size: 13px;">Intermediate</td>
+                </tr>
+                <tr>
+                    <td style="display: flex;" class="frs">
+                        <img src="images/html.png" alt="" class="logo" style="border-radius: 5px;">
+                        <h5 style="font-size: 12px; margin-left:10px;">HTML Basics</h5>
+                        <p style="font-size: 10px; margin-left:-75px; margin-top: 15px;">12 lessons</p>
+                    </td>
+                    <td style="font-size: 13px;">May 26</td>
+                    <td style="font-size: 13px;">4.7</td>
+                    <td style="font-size: 13px;">Elementary</td>
+                </tr>
+                <tr>
+                    <td style="display: flex;" class="frs">
+                        <img src="images/js.png" alt="" class="logo" style="border-radius: 5px;">
+                        <h5 style="margin-left: 10px;">Javascript</h5>
+                        <p style="margin-top: 15px; margin-left: -65px; font-size: 10px;">8 lessons</p>
+                    </td>
+                    <td style="font-size: 13px;">May 30</td>
+                    <td style="font-size: 13px;">4.9</td>
+                    <td style="font-size: 13px;">Elementary</td>
+                </tr>
+            </table>
+        </div>
+        <div class="right">
+            <h3 class="prf">Profile</h3>
+            <img src="images/profile.jpg" alt="" class="pf_img">
+            <h5 class="pf_name">Esther Howard</h5><img src="images/bluetick.png" alt="" class="bluetick">
+            <p style="margin-left: 90px; font-size: 10px; color: grey;">Elementary</p>
+            <div id="element"></div>
+            <h3 style="margin-top: 30px;">Homework Progress</h3>
+            <div class="HW">
+                <div class="container">
+                    <div class="ui-widgets">
+                        <div class="ui-values">85%</div>
+                    </div>
+                </div>
+                  <h5 class="hw_nm">Styling with css</h5>
+                  <p class="HW_task">12 tasks</p>
+                  <div class="arw">&#10148;</div>
+            </div>
+            <div class="HW">
+                <div class="container">
+                    <div class="ui-widgets">
+                        <div class="ui-values">85%</div>
+                    </div>
+                </div>
+                  <h5 class="hw_nm">Styling with css</h5>
+                  <p class="HW_task">12 tasks</p>
+                  <div class="arw">&#10148;</div>
+            </div>
+            <div class="HW">
+                <div class="container">
+                    <div class="ui-widgets">
+                        <div class="ui-values">85%</div>
+                    </div>
+                </div>
+                  <h5 class="hw_nm">Styling with css</h5>
+                  <p class="HW_task">12 tasks</p>
+                  <div class="arw">&#10148;</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

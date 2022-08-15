@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grades.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <h3 class="name">Acedemy</h3>
+            <ul>
+                <li><img src="images/dashboard.png" alt="" class="sym"><a href="file:///D:/INTERNSHIP/index.html">Dashboard</a></li>
+                <li><img src="images/briefcase.png" alt=""class="sym"><a href="file:///D:/INTERNSHIP/course.html">Courses</a></li>
+                <li><img src="images/chat.png" alt="" class="sym"><a href="file:///D:/INTERNSHIP/chat.html">Chats</a></li>
+                <li><img src="images/stats.png" alt="" class="sym"><a href="file:///D:/INTERNSHIP/grades.html">Grades</a></li>
+                <li><img src="images/calendar.png" alt="" class="sym"><a href="file:///D:/INTERNSHIP/schedule.html">Schedule</a></li>
+                <li><img src="images/setting.png" alt="" class="sym"><a href="#">Setting</a></li>
+            </ul>
+            <div class="premium">
+                <img src="images/laptopman.png" alt="" class="ps_img">
+                <h4 class="ps">Premium Subscription</h5>
+                <p class="ps_txt">Bye premium and get access to new Courses</p>
+                <button class="pre_btn">More Details</button>
+            </div>
+        </div>
+        <div class="right">
+            <h1 class="hd">MY GRADES</h1>
+            <h3 class="dtl">DETAILS</h3>
+            <table class="details">
+                <tr>
+                    <td>Name:</td>
+                    <td>Esther Howard</td>
+                </tr>
+                <tr>
+                    <td>Courses:</td>
+                    <td>JavaScript, HTML5, Maths</td>
+                </tr>
+                <tr>
+                    <td>level:</td>
+                    <td>Elementry</td>
+                </tr>
+                <tr>
+                    <td>Date:</td>
+                    <td>14/08/2022</td>
+                </tr>
+            </table>
+            <h3 class="grh">GRADES</h3>
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+        </div>
+    </div>
+    <script>
+        var xValues = ["Javascript", "HTML", "Maths"];
+        var yValues = [55, 49, 44];
+        var barColors = ["red", "green","blue"];
+        
+        new Chart("myChart", {
+          type: "bar",
+          data: {
+            labels: xValues,
+            datasets: [{
+              backgroundColor: barColors,
+              data: yValues
+            }]
+          },
+          options: {
+            legend: {display: false},
+            title: {
+              display: true,
+              text: "Grades"
+            }
+          }
+        });
+        </script>
+</body>
+</html>
